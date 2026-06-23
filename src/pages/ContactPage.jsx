@@ -49,14 +49,14 @@ export default function ContactPage() {
             <div className="contact-details">
               <div className="cinfo-item">
                 <strong>Email</strong>
-                <a href="mailto:info@elasass.com">info@elasass.com</a>
+                <a href="mailto:info@elasass.com">contact@elasass.com</a>
               </div>
               <div className="cinfo-item">
                 <strong>{t.nav.contact}</strong>
-                <a href="tel:+218910000000">+218 91 000 0000</a>
+                <a href="tel:+41767659671">+41 767659671</a>
               </div>
             </div>
-            <a href="https://wa.me/218910000000" target="_blank" rel="noreferrer" className="btn-primary whatsapp-btn">
+            <a href="https://wa.me/41767659671" target="_blank" rel="noreferrer" className="btn-primary whatsapp-btn">
               <MessageCircle size={20} /> {t.contact.whatsapp}
             </a>
           </div>

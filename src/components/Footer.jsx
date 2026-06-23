@@ -35,7 +35,7 @@ export default function Footer() {
           <h4>{t.footer.contactUs}</h4>
           <ul className="contact-list">
             <li><Mail size={16} /> <a href="mailto:contact@elasass.com">contact@elasass.com</a></li>
-            <li><Phone size={16} /> <a href="tel:+218910000000">+218 91 000 0000</a></li>
+            <li><Phone size={16} /> <a href="tel:+218910000000">+41 767659671</a></li>
             <li><MessageCircle size={16} /> <a href="https://wa.me/218910000000" target="_blank" rel="noreferrer">WhatsApp</a></li>
           </ul>
         </div>
