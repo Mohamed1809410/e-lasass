@@ -7,7 +7,7 @@ const GALLERY_IMGS = [
   { src: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80' },
   { src: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&q=80' },
   { src: 'https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=800&q=80' },
-  { src: 'https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80', span: 2 },
+  { src: 'https://plus.unsplash.com/premium_photo-1682142119293-ba4cb0877108?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YnVsbGRvemVyfGVufDB8fDB8fHww', span: 2 },
   { src: 'https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=800&q=80' },
   { src: 'https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?w=800&q=80' },
   { src: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80', span: 2 },

@@ -4,7 +4,7 @@ import { useLang } from '../hooks/useLang.jsx';
 import { Menu, X, Globe } from 'lucide-react';
 
 export default function Navbar() {
-  const { t, toggleLang, lang } = useLang();
+  const { t } = useLang();
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const { pathname } = useLocation();
@@ -32,7 +32,7 @@ export default function Navbar() {
       <div className="container nav-inner">
         <Link to="/" className="nav-logo">
           <span className="logo-en">EL ASASS</span>
-          <span className="logo-ar">الأساس</span>
+         
         </Link>
 
         <ul className="nav-links">
@@ -44,11 +44,7 @@ export default function Navbar() {
         </ul>
 
         <div className="nav-actions">
-          <button className="lang-btn" onClick={toggleLang} aria-label="Switch language">
-            <Globe size={18} />
-            <span>{t.langSwitch}</span>
-          </button>
-          <button className="hamburger" onClick={() => setMenuOpen(o => !o)} aria-label="Menu">
+                    <button className="hamburger" onClick={() => setMenuOpen(o => !o)} aria-label="Menu">
             {menuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>

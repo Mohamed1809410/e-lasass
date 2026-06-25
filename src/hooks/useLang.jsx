@@ -4,19 +4,17 @@ import { translations } from '../data/translations';
 const LangContext = createContext();
 
 export function LangProvider({ children }) {
-  const [lang, setLang] = useState('ar');
-  const t = translations[lang];
+  const [lang] = useState('en');
+  const t = translations.en;
 
   useEffect(() => {
-    document.documentElement.lang = lang;
-    document.body.dir = t.dir;
-    document.body.className = lang === 'en' ? 'ltr' : '';
-  }, [lang, t.dir]);
-
-  const toggleLang = () => setLang(l => l === 'ar' ? 'en' : 'ar');
+    document.documentElement.lang = 'en';
+    document.body.dir = 'ltr';
+    document.body.className = 'ltr';
+  }, []);
 
   return (
-    <LangContext.Provider value={{ lang, t, toggleLang }}>
+    <LangContext.Provider value={{ lang: 'en', t }}>
       {children}
     </LangContext.Provider>
   );

@@ -19,7 +19,7 @@ export default function Footer() {
         <div className="footer-brand">
           <div className="footer-logo">
             <span className="logo-en">EL ASASS</span>
-            <span className="logo-ar">الأساس للمعدات الثقيلة</span>
+           
           </div>
           <p className="footer-tagline">{t.footer.tagline}</p>
         </div>
