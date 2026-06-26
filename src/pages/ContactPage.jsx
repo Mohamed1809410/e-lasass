@@ -53,10 +53,10 @@ export default function ContactPage() {
               </div>
               <div className="cinfo-item">
                 <strong>{t.nav.contact}</strong>
-                <a href="tel:+41767659671">+41 767659671</a>
+                <a href="tel:+905537646914">+90 5537646914</a>
               </div>
             </div>
-            <a href="https://wa.me/41767659671" target="_blank" rel="noreferrer" className="btn-primary whatsapp-btn">
+            <a href="https://wa.me/905537646914" target="_blank" rel="noreferrer" className="btn-primary whatsapp-btn">
               <MessageCircle size={20} /> {t.contact.whatsapp}
             </a>
           </div>
